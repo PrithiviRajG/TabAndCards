@@ -1,0 +1,47 @@
+.card {
+    width: 50%;
+    height: 175px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px 3px 0 0;
+    transition: opacity 0.2s;
+    -webkit-transition: opacity 0.2s;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.card:hover {
+    /*animation: soften 0.2s;
+    opacity: 0.8;*/
+    cursor: pointer;
+    background-color: #12D18E;
+    color: white;
+    
+}
+
+.circle{
+    width:70px;
+    height:70px;
+    border-radius:70px;
+    font-size:20px;
+    line-height:70px;
+    text-align:center;
+    background:#697f96;
+    color: white;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Helvetica Nueue",Arial,Verdana,sans-serif;
+    background-color: #E5E9ED;
+}
+
+
+.levelContent{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 10px 0 0 ;
+}
